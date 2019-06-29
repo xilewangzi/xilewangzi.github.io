@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang>
+  <head><meta name="generator" content="Hexo 3.9.0">
+    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+  <meta name="description" content="2019软考基础知识-数据结构">
+
+
+
+
+
+
+
+
+  <link rel="alternate" href="/default" title="Grace">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1.1">
+
+
+
+<link rel="canonical" href="http://yoursite.com/2019/06/28/2019软考备考/">
+
+
+<meta name="description" content="一、线性表1、定义：n个元素的有限序列，通常记为（a1，a2，…,an）。2、特点：存在唯一的表头和表尾        除了表头外，表中每一个元素均只有唯一的直接前驱        除了表尾外，表中的每一个元素均只有唯一的后继3、线性表的存储结构:(1)顺序存储：用一组地址连续的存储单位依次存储数据表中的数据元素(2)链式存储：用结点来存储数据元素，结点可以是连续的，也可以是不连续的。必须存储元素">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2019软考基础知识-数据结构">
+<meta property="og:url" content="http://yoursite.com/2019/06/28/2019软考备考/index.html">
+<meta property="og:site_name" content="Grace">
+<meta property="og:description" content="一、线性表1、定义：n个元素的有限序列，通常记为（a1，a2，…,an）。2、特点：存在唯一的表头和表尾        除了表头外，表中每一个元素均只有唯一的直接前驱        除了表尾外，表中的每一个元素均只有唯一的后继3、线性表的存储结构:(1)顺序存储：用一组地址连续的存储单位依次存储数据表中的数据元素(2)链式存储：用结点来存储数据元素，结点可以是连续的，也可以是不连续的。必须存储元素">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-06-29T01:29:50.519Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="2019软考基础知识-数据结构">
+<meta name="twitter:description" content="一、线性表1、定义：n个元素的有限序列，通常记为（a1，a2，…,an）。2、特点：存在唯一的表头和表尾        除了表头外，表中每一个元素均只有唯一的直接前驱        除了表尾外，表中的每一个元素均只有唯一的后继3、线性表的存储结构:(1)顺序存储：用一组地址连续的存储单位依次存储数据表中的数据元素(2)链式存储：用结点来存储数据元素，结点可以是连续的，也可以是不连续的。必须存储元素">
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=1.1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+
+
+
+<script type="text/javascript">
+  var themeConfig = {
+    fancybox: {
+      enable: 
+    },
+  };
+</script>
+
+
+
+
+  
+
+
+
+    <title> 2019软考基础知识-数据结构 - Grace </title>
+  </head>
+
+  <body>
+    <div id="page">
+      <header id="masthead"><div class="site-header-inner">
+    <h1 class="site-title">
+        <a href="/." class="logo">Grace</a>
+    </h1>
+
+    <nav id="nav-top">
+        
+            <ul id="menu-top" class="nav-top-items">
+                
+                    <li class="menu-item">
+                        <a href="/archives">
+                            
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li class="menu-item">
+                        <a href="/about">
+                            
+                            
+                                About
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        
+  </nav>
+</div>
+
+      </header>
+      <div id="content">
+        
+    <div id="primary">
+        
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          2019软考基础知识-数据结构
+        
+      </h1>
+
+      <time class="post-time">
+          Jun 28 2019
+      </time>
+    </header>
+
+
+
+    
+            <div class="post-content">
+            <p>一、线性表<br>1、定义：n个元素的有限序列，通常记为（a1，a2，…,an）。<br>2、特点：存在唯一的表头和表尾<br>        除了表头外，表中每一个元素均只有唯一的直接前驱<br>        除了表尾外，表中的每一个元素均只有唯一的后继<br>3、线性表的存储结构:<br>(1)顺序存储：用一组地址连续的存储单位依次存储数据表中的数据元素<br>(2)链式存储：用结点来存储数据元素，结点可以是连续的，也可以是不连续的。必须存储元素之间的逻辑关系。<br>优点：插入和删除操作不需要移动元素<br>缺点：增加了存储空间开销，不能随机访问任一结点<br>4、其他几种链表结构：<br>（1）双向链表<br>（2）循环链表<br>（3）静态链表<br>5、运算：插入和删除</p>
+<p>二、栈：先进后出的线性表。栈进行插入和删除的称为栈顶。另一端称为栈底。（洗碗的例子）<br>1、存储：顺序存储、链式存储<br>指针top指示栈顶元素的位置</p>
+<p>三、队列：先进先出的线性表。一端插入，在另一端删除。（排队购票的例子）<br>允许插入的一端叫队尾，允许删除的元素的一端叫队头。<br>1、存储：顺序存储、链式存储<br>链队列</p>
+<p>四、串：仅由字符构成的有序列，是取值范围受限的线性表。<br>空串：长度的为零的串，空串不包含任何字符<br>空格串：由一个或多个空格组成的串<br>字串：由串中任意长度的连续字符构成的序列。包含有子串的称为主串。<br>空串是任意串的子串。<br>串比较，两个字符的ASCLL码值<br>存储：顺序存储、链式存储</p>
+<p>五、KMP算法：是一种改进的字符串匹配算法<br>具体实现一个next()函数<br>《部分匹配表》<br>前缀、后缀<br>历年真题</p>
+<p>六、树和二叉树<br>1、树：是n(n&gt;=0)个结点的有限集合。n=0时为空树。<br>有且仅有一个称为根结点。<br>其余的结点可分为m(m&gt;=0)个互不相交的子集T1,T2…成为根结点的子树。<br>结点的度：一个结点的子树的个数记为该结点的度。<br>树的度：树中各结点的度的最大值。<br>叶子结点：终端结点</p>
+<p>七、图</p>
+<p>八、排序</p>
+<p>九、查找</p>
+
+            </div>
+          
+
+    
+      <footer class="post-footer">
+		
+
+        
+        
+  <nav class="post-nav">
+    
+    
+      <a class="next" href="/2019/06/28/hello-world/">
+        <span class="next-text nav-default">Hello World</span>
+        <span class="prev-text nav-mobile">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    
+  </nav>
+
+        
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+      </footer>
+    
+  </article>
+
+    </div>
+
+      </div>
+
+      <footer id="colophon"><span class="copyright-year">
+    
+        &copy;
+    
+        2014 -
+    
+    2019
+    <span class="footer-author">zhangruibo.</span>
+    <span class="power-by">
+        Powered by <a class="hexo-link" href="https://hexo.io/">Hexo</a> and <a class="theme-link" href="https://github.com/frostfan/hexo-theme-polarbear">Polar Bear</a>
+    </span>
+</span>
+
+      </footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+    
+
+
+    
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+
+    <script type="text/javascript" src="/js/src/theme.js?v=1.1"></script>
+<script type="text/javascript" src="/js/src/bootstrap.js?v=1.1"></script>
+
+  </body>
+</html>
