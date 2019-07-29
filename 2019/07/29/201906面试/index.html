@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang>
+  <head><meta name="generator" content="Hexo 3.9.0">
+    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+  <meta name="description" content="201906面试">
+
+
+
+
+
+
+
+
+  <link rel="alternate" href="/default" title="Grace">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1.1">
+
+
+
+<link rel="canonical" href="http://yoursite.com/2019/07/29/201906面试/">
+
+
+<meta name="description" content="一、面试官问题汇总：极客晨星-soho望京1、es6语法2、Set用法promise对象的用法：promise是一个构造函数 123456789var promise = new Promise(resolve,reject) =&amp;gt; &amp;#123;    if()&amp;#123;&amp;#125;&amp;#125;promise.then(function(value)&amp;#123;    //success&amp;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="201906面试">
+<meta property="og:url" content="http://yoursite.com/2019/07/29/201906面试/index.html">
+<meta property="og:site_name" content="Grace">
+<meta property="og:description" content="一、面试官问题汇总：极客晨星-soho望京1、es6语法2、Set用法promise对象的用法：promise是一个构造函数 123456789var promise = new Promise(resolve,reject) =&amp;gt; &amp;#123;    if()&amp;#123;&amp;#125;&amp;#125;promise.then(function(value)&amp;#123;    //success&amp;">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-07-29T01:45:51.387Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="201906面试">
+<meta name="twitter:description" content="一、面试官问题汇总：极客晨星-soho望京1、es6语法2、Set用法promise对象的用法：promise是一个构造函数 123456789var promise = new Promise(resolve,reject) =&amp;gt; &amp;#123;    if()&amp;#123;&amp;#125;&amp;#125;promise.then(function(value)&amp;#123;    //success&amp;">
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=1.1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+
+
+
+<script type="text/javascript">
+  var themeConfig = {
+    fancybox: {
+      enable: 
+    },
+  };
+</script>
+
+
+
+
+  
+
+
+
+    <title> 201906面试 - Grace </title>
+  </head>
+
+  <body>
+    <div id="page">
+      <header id="masthead"><div class="site-header-inner">
+    <h1 class="site-title">
+        <a href="/." class="logo">Grace</a>
+    </h1>
+
+    <nav id="nav-top">
+        
+            <ul id="menu-top" class="nav-top-items">
+                
+                    <li class="menu-item">
+                        <a href="/archives">
+                            
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li class="menu-item">
+                        <a href="/about/">
+                            
+                            
+                                About
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        
+  </nav>
+</div>
+
+      </header>
+      <div id="content">
+        
+    <div id="primary">
+        
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          201906面试
+        
+      </h1>
+
+      <time class="post-time">
+          Jul 29 2019
+      </time>
+    </header>
+
+
+
+    
+            <div class="post-content">
+            <h3 id="一、面试官问题汇总："><a href="#一、面试官问题汇总：" class="headerlink" title="一、面试官问题汇总："></a>一、面试官问题汇总：</h3><p>极客晨星-soho望京<br>1、es6语法<br>2、Set用法<br>promise对象的用法：promise是一个构造函数</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">var promise = new Promise(resolve,reject) =&gt; &#123;</span><br><span class="line">    if()&#123;&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">promise.then(function(value)&#123;</span><br><span class="line">    //success</span><br><span class="line">&#125;,function(value)&#123;</span><br><span class="line">    //failure</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>3、async函数自带执行器,表示有异步操作，await表示紧跟在后边等待结果。返回Promise对象</p>
+<p>2、数组、类数组区别</p>
+<p>3、递归函数：在函数内部，可以调用其他函数。如果一个函数在内部调用自身本身，这个就是递归函数。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">function fn(n)&#123;</span><br><span class="line">            if(n == 1 || n == 2)</span><br><span class="line">                return 1;</span><br><span class="line">            return fn(n-2) + fn(n-1);</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+
+<p>匿名函数：不需要使用函数名执行的场景</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var interval = setInterval(function()&#123;</span><br><span class="line">          document.write(new Date());</span><br><span class="line"> &#125;, 1000);</span><br></pre></td></tr></table></figure>
+
+<p>匿名自执行：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">(function(name)&#123;console.log(&quot;ddd&quot;)&#125;)(&quot;zrb&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>4、清空数组的方法<br>5、重复数组的方法<br>6、webpack与gulp区别：<br>7、双向绑定原理：<br>8、路由钩子、axios钩子函数</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">9、function a()&#123;&#125;全局性的方法，在调用之后定义，系统不会报错；</span><br><span class="line">     var a = function()&#123;&#125; 匿名函数的定义方法，在定义之前调用系统回报错</span><br><span class="line">     var a = new function()&#123;&#125; 方法被当作类来处理，a代表了这个方法的类，也就是这个方法本身。</span><br></pre></td></tr></table></figure>
+
+<p>10、复杂请求和简单请求</p>
+<h3 id="二、面试题问题汇总："><a href="#二、面试题问题汇总：" class="headerlink" title="二、面试题问题汇总："></a>二、面试题问题汇总：</h3><p>1）清空数组：<br>直接赋值为空值，即[];利用数组splice(index,howmany);数组的length属性赋值为0。</p>
+<p>2）递归函数</p>
+<p>3）微信分享登录，授权<br>小程序开发，小程序登录，生命周期<br>垮域开发，为什么会有多个域名<br>事件冒泡<br>viebview暴露的方法，js如何调用<br>Express<br>判断数组<br>webpac与gulp的区别<br>Http缓存，Dom，缓存<br>获取子符串长度<br>电话面试，css，js基础，框架到职业规划基础。造轮子<br>cavans：转盘<br>Events Loop<br>深浅事件<br>数组方法<br>设计模式<br>移动适配，物理大小<br>NextTick<br>组件缓存<br>v-show 与 v-if 区别<br>路由跳转方式，this.$router.replace()<br>将一个数组打乱<br>分换算成元<br>删除页面所有div<br>mock数据相关<br>深浅拷贝，<br>class继承<br>数组合并<br>jsonp如何给后台传数据<br>this指向<br>冒泡排序<br>vue纯函数<br>requer.js   vue.emtie<br>vuex弊端<br>字符串，判断多少<br>react<br>如何实现浏览器内多个标签页之间的通信？<br>localStorage，WebSocket[兼容性最佳]<br>数组操作，<br>[[][][][]]，找出重复的数组<br>1，2，3，5；1，2，3，8写个方法<br>AJAX<br>WebSoct<br>vue-router 传参和接受参数<br>兼容性问题<br>屏幕自动适配字体大小js<br>js封装一个元素选择器<br>计算机数据结构<br>字符串相加<br>url解析过程<br>promire<br>混合开发<br>setTimeout<br>DNS<br>开发vue插件<br>for，循环，死循环，与for in for each的区别<br>let const 深入理解？<br>Vue双向绑定原理<br>Obeject.dfine实践代码</p>
+
+            </div>
+          
+
+    
+      <footer class="post-footer">
+		
+
+        
+        
+  <nav class="post-nav">
+    
+    
+      <a class="next" href="/2019/06/28/2019软考备考/">
+        <span class="next-text nav-default">2019软考基础知识-数据结构</span>
+        <span class="prev-text nav-mobile">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    
+  </nav>
+
+        
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+      </footer>
+    
+  </article>
+
+    </div>
+
+      </div>
+
+      <footer id="colophon"><span class="copyright-year">
+    
+        &copy;
+    
+        2014 -
+    
+    2019
+    <span class="footer-author">zhangruibo.</span>
+    <span class="power-by">
+        Powered by <a class="hexo-link" href="https://hexo.io/">Hexo</a> and <a class="theme-link" href="https://github.com/frostfan/hexo-theme-polarbear">Polar Bear</a>
+    </span>
+</span>
+
+      </footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+    
+
+
+    
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+
+    <script type="text/javascript" src="/js/src/theme.js?v=1.1"></script>
+<script type="text/javascript" src="/js/src/bootstrap.js?v=1.1"></script>
+
+  </body>
+</html>
