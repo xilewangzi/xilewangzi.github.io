@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang>
+  <head><meta name="generator" content="Hexo 3.9.0">
+    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+  <meta name="description" content="前端进阶之Typescript">
+
+
+
+
+
+
+
+
+  <link rel="alternate" href="/default" title="Grace's Blog">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1.1">
+
+
+
+<link rel="canonical" href="https://xilewangzi.github.io/2019/10/23/前端进阶/">
+
+
+<meta name="description" content="一、初识TypeScript：TypeScript微软开源编程语言，是Javascript的一个超级。在JS的基础上添加了可选的静态类型和基于类的面向对象的编程。 二、安装TypeScript：三、基础语法1、变量类型2、函数3、引用类型-数组4、引用类型-字符串5、引用类型-日期6、引用类型-正则 四、面向对象编程1、类的声明、使用2、修饰符3、继承、重写4、接口5、命名空间">
+<meta property="og:type" content="article">
+<meta property="og:title" content="前端进阶之Typescript">
+<meta property="og:url" content="https://xilewangzi.github.io/2019/10/23/前端进阶/index.html">
+<meta property="og:site_name" content="Grace&#39;s Blog">
+<meta property="og:description" content="一、初识TypeScript：TypeScript微软开源编程语言，是Javascript的一个超级。在JS的基础上添加了可选的静态类型和基于类的面向对象的编程。 二、安装TypeScript：三、基础语法1、变量类型2、函数3、引用类型-数组4、引用类型-字符串5、引用类型-日期6、引用类型-正则 四、面向对象编程1、类的声明、使用2、修饰符3、继承、重写4、接口5、命名空间">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-10-23T10:58:46.992Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="前端进阶之Typescript">
+<meta name="twitter:description" content="一、初识TypeScript：TypeScript微软开源编程语言，是Javascript的一个超级。在JS的基础上添加了可选的静态类型和基于类的面向对象的编程。 二、安装TypeScript：三、基础语法1、变量类型2、函数3、引用类型-数组4、引用类型-字符串5、引用类型-日期6、引用类型-正则 四、面向对象编程1、类的声明、使用2、修饰符3、继承、重写4、接口5、命名空间">
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=1.1">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+
+
+
+<script type="text/javascript">
+  var themeConfig = {
+    fancybox: {
+      enable: 
+    },
+  };
+</script>
+
+
+
+
+  
+
+
+
+    <title> 前端进阶之Typescript - Grace's Blog </title>
+  </head>
+
+  <body>
+    <div id="page">
+      <header id="masthead"><div class="site-header-inner">
+    <h1 class="site-title">
+        <a href="/." class="logo">Grace's Blog</a>
+    </h1>
+
+    <nav id="nav-top">
+        
+            <ul id="menu-top" class="nav-top-items">
+                
+                    <li class="menu-item">
+                        <a href="/archives">
+                            
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li class="menu-item">
+                        <a href="/about/">
+                            
+                            
+                                About
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        
+  </nav>
+</div>
+
+      </header>
+      <div id="content">
+        
+    <div id="primary">
+        
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          前端进阶之Typescript
+        
+      </h1>
+
+      <time class="post-time">
+          Oct 23 2019
+      </time>
+    </header>
+
+
+
+    
+            <div class="post-content">
+            <h3 id="一、初识TypeScript："><a href="#一、初识TypeScript：" class="headerlink" title="一、初识TypeScript："></a>一、初识TypeScript：</h3><p>TypeScript微软开源编程语言，是Javascript的一个超级。在JS的基础上添加了可选的静态类型和基于类的面向对象的编程。</p>
+<h3 id="二、安装TypeScript："><a href="#二、安装TypeScript：" class="headerlink" title="二、安装TypeScript："></a>二、安装TypeScript：</h3><h3 id="三、基础语法"><a href="#三、基础语法" class="headerlink" title="三、基础语法"></a>三、基础语法</h3><p>1、变量类型<br>2、函数<br>3、引用类型-数组<br>4、引用类型-字符串<br>5、引用类型-日期<br>6、引用类型-正则</p>
+<h3 id="四、面向对象编程"><a href="#四、面向对象编程" class="headerlink" title="四、面向对象编程"></a>四、面向对象编程</h3><p>1、类的声明、使用<br>2、修饰符<br>3、继承、重写<br>4、接口<br>5、命名空间</p>
+
+            </div>
+          
+
+    
+      <footer class="post-footer">
+		
+
+        
+        
+  <nav class="post-nav">
+    
+    
+      <a class="next" href="/2019/07/29/201906面试/">
+        <span class="next-text nav-default">201906面试</span>
+        <span class="prev-text nav-mobile">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    
+  </nav>
+
+        
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+      </footer>
+    
+  </article>
+
+    </div>
+
+      </div>
+
+      <footer id="colophon"><span class="copyright-year">
+    
+        &copy;
+    
+        2018 -
+    
+    2019
+    <span class="footer-author">zhangruibo.</span>
+    <span class="power-by">
+        Powered by <a class="hexo-link" href="https://hexo.io/">Hexo</a> and <a class="theme-link" href="https://github.com/frostfan/hexo-theme-polarbear">Polar Bear</a>
+    </span>
+</span>
+
+      </footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+    
+
+
+    
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+
+    <script type="text/javascript" src="/js/src/theme.js?v=1.1"></script>
+<script type="text/javascript" src="/js/src/bootstrap.js?v=1.1"></script>
+
+  </body>
+</html>
